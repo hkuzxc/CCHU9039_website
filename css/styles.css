@@ -618,15 +618,15 @@ margin: 0 8px;
 }
 #business-stats {
   padding: 100px 0 70px;
-  background: #C3360B;
+  background: #fff;
   background-size: cover;
-  color: #fff;
+  color: black;
 }
 #business-stats h1,
 #business-stats h2,
 #business-stats h3,
 #business-stats h4 {
-  color: #fff;
+  color: black;
 }
 #business-stats strong {
   display: block;
