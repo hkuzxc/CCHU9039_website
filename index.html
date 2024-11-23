@@ -20,7 +20,8 @@
 </head> 
 
 <body id="home">
-
+    
+    
     <header id="header">
         <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
             <div class="container">
@@ -334,7 +335,7 @@
                     <!-- 第一个视频 -->
                     <div style="flex: 1; margin-right: 10px;">
                         <iframe 
-                            src="https://www.youtube.com/embed/VIDEO_ID_1" 
+                            src="https://www.youtube.com" 
                             frameborder="0" 
                             allowfullscreen 
                             style="width: 100%; height: 300px;">
@@ -344,7 +345,7 @@
                     <!-- 第二个视频 -->
                     <div style="flex: 1; margin-left: 10px;">
                         <iframe 
-                            src="https://www.youtube.com/embed/VIDEO_ID_2" 
+                            src="https://www.youtube.com" 
                             frameborder="0" 
                             allowfullscreen 
                             style="width: 100%; height: 300px;">
@@ -530,7 +531,17 @@
             </div>
         </div>
     </footer><!--/#footer-->
-
+    <div id="overlay1" class="overlay1">
+        <div class="modal1">
+            <h2>Content Warning</h2>
+            <p>The content you are about to view may contain sensitive information. Please confirm if you want to proceed.</p>
+            <div>
+                <button id="confirm-btn" class="btn confirm">Proceed</button>
+                <button id="cancel-btn" class="btn cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+    
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script> 
     <script src="js/mousescroll.js"></script>
@@ -540,5 +551,6 @@
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/custom-scripts.js"></script>
+    <script src="js/popup.js"></script>
 </body>
 </html>
